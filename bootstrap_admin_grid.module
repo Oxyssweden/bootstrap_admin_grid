@@ -1,0 +1,10 @@
+<?php
+
+function bootstrap_admin_grid_init() {
+  // Check if this is admin page
+  if (path_is_admin(current_path())) {
+    // Add our grid css
+    $path = drupal_get_path('module', 'bootstrap_admin_grid') . '/grid12.css';
+    drupal_add_css($path);
+  }
+}

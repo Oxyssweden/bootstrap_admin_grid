@@ -1,0 +1,4 @@
+name = Bootstrap admin grid
+description = Injects the bootstrap grid css into admin theme.
+package = Other
+core = 7.x
